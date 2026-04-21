@@ -1,0 +1,18 @@
+Entità individuate:
+Dipartimenti
+Corsi di Laurea
+Materie
+Insegnanti
+Studenti
+Appelli Esami
+Materie_Insegnanti
+Appelli Esami_Studente
+
+
+La prima entità è Dipartimento
+Un dipartimento può comprendere molti corsi di laurea la relazione tra Dipartimento e Corso di Laurea: 1:N
+L’entità Corso di Laurea può avere + studenti iscritti, mentre ogni studente può appartenere a un solo corso di laurea(nello stesso momento),la relazione è: 1:N
+Ogni corso di laurea comprende molti corsi/materie, quindi la relazione tra Corso di Laurea e materie è: 1:N
+Una materia può essere insegnato da più insegnanti e un insegnante può insegnare più corsi, quindi la relazione tra corso e insegnante è: N:N
+Ogni materia prevede più appelli d’esame,la relazione è: 1:N
+Uno studente può partecipare a più esami e ogni esame può avere più studenti iscritti, quindi la relazione tra Studente ed Esame è: N:N
